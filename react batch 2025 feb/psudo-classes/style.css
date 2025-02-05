@@ -1,0 +1,50 @@
+/* :root{
+    font-size: 10px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+html{
+    background-color: green;
+}
+
+body{
+    background-color: brown;
+} */
+
+
+.a-tags{
+    margin-top: 50px;
+}
+
+a:link{
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: tomato;
+    color: white;
+}
+
+a:visited{
+    background-color: dodgerblue;
+    color: rgb(0, 0, 0);
+    border: 0.5px solid purple;
+}
+
+a:active{
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+p::first-line{
+    background-color: grey;
+}
