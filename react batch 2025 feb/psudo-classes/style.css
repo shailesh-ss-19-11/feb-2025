@@ -48,3 +48,13 @@ p::first-letter{
 p::first-line{
     background-color: grey;
 }
+
+.sentence::before{
+    content: 'hello';
+    font-size: 10px;
+}
+
+.sentence::after{
+    content: 'hello';
+    font-size: 10px;
+}
