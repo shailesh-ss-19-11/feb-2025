@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: coral;
+    color: white;
+    
+}
+
+.nav{
+    /* border: 1px solid black; */
+    
+}
+
+.nav-links{
+    float: left;
+    margin-top: 5px;
+}
+
+.heading{
+    margin: 0;
+    width: 15%;
+    float: left;
+    
+    /* border: 1px solid black; */
+}
+.clearfix{
+    clear:both;
+}
+
+.link-content{
+    color: #fff;
+}
+
+.link-content:link{
+    text-decoration: none;
+    padding: 5px;
+    font-size: x-small;
+}
+
+.link-content:hover{
+    background-color: dodgerblue;
+}
+
+.section{
+    text-align: center;
+}
+
+/* li{
+    list-style-type: none;
+} */
+
+.market-resource{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.box1{
+    background-color: rgb(206, 137, 137);
+    border: 1px solid black;
+    float: left;
+    width: 45%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.box2{
+    background-color: rgb(163, 221, 163);
+    border: 1px solid black;
+    float: left;
+    width: 45%;
+    margin: 10px;
+    border-radius: 8px;
+}

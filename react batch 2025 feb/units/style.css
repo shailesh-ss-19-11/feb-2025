@@ -2,6 +2,10 @@ html{
     font-size: 10px;
 }
 
+body{
+    margin: 0;
+}
+
 /* absolute units  */
 p{
     /* font-size: 32px; */
@@ -48,8 +52,6 @@ p{
 }
 
 /* rem refer to the root element font size */
-.box3{
-}
 
 .box3-child{
     width: 40rem;
@@ -60,3 +62,16 @@ p{
 .box3 p{
     font-size: 2rem;
 }
+
+.box4{
+    width: 100vw;
+    border: 1px solid grey;
+    height: 90vh;
+    background-color: coral;
+}
+
+/* .box4 p{
+    border: 1px solid black;
+    width: 100vw;
+} */
+
