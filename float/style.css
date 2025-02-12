@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-div {
+  border: 10px solid green;
+}
+
+.box1 {
+  width: 45%;
+  border: 1px solid red;
+  float: left;
+  background-color: greenyellow;
+}
+
+.box2 {
+  width: 55%;
+  background-color: coral;
+  float: right;
+}
+
+.footer {
+  /* clear: left; */
+  /* jaha float khatam hua vaha se shuru hoga */
+  /* clear: right; */
+}
+
+.clearfix {
+  clear: both;
+}
+
+.main-box {
+  width: 100%;
+  font-weight: 100;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.codebox1 {
+  background-color: dodgerblue;
+  float: left;
+  width: 24%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+}
+.codebox2 {
+  background-color: coral;
+  float: left;
+  width: 24%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+}
+.codebox3 {
+  background-color: grey;
+  float: left;
+  width: 24%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+}
+.codebox4 {
+  background-color: brown;
+  float: left;
+  width: 24%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 10px;
+}

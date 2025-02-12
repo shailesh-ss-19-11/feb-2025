@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* .first-line{
+    color:rgb(255, 0, 0) ;
+} */
+
+/* .first-line{
+    color:#942a2a;
+} */
+ 
+.second-line{
+    background-color: #ff0000;
+    color: #0000ff;
+}
+
+.main-div{
+    width: 400px;
+    height: 400px;
+    /* background-color: rgb(255, 0, 0); */
+    background-image: url(./../assets/images/Walking_tiger_female.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* border: 10px solid black; */
+    border-width: 10px;
+    border-style: groove;
+    border-color: blue;
+    border-radius: 50%;
+    border-left: 20px solid grey;
+    border-top: 20px solid #5fff02;
+}
+
+.main-div-2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(65, 54, 54);
+}
+.main-span{
+    background-color: red;
+}
+
+.image-prop{
+    width: 400px;
+}
+
+.image-prop img{
+    width: 100%;
+}
+
+#animal-image{
+    width: 500px;
+}
+
+input[type="text"]{
+    background-color: red;
+    color: white;
+}
+input[type="email"]{
+    background-color: rgb(22, 93, 109);
+    color: black;
+}
+
