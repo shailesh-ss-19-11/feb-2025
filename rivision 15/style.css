@@ -1,0 +1,58 @@
+html {
+  /* font-size: 10px; */
+}
+/* .float-left{
+  float: left;
+}
+
+.clearfix{
+  clear: both;
+} */
+
+/* .container {
+  width: 50%;
+  background-color: blueviolet;
+} */
+
+.parent {
+  font-size: 10px;
+}
+
+.child-box {
+  width: 3em;
+  height: 3em;
+  background-color: coral;
+}
+
+/* em -- 1em  */
+
+/* .box {
+  height: 40rem;
+  width: 40rem;
+  background-color:green;
+} */
+
+
+.container{
+  background-color: brown;
+  /* height: 70vh;
+  width: 70vw; */
+
+  width: 500;
+  height: 500px;
+  position: relative;
+  
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color:green;
+  /* position: relative;
+  left: 600px; */
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
