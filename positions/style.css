@@ -41,3 +41,24 @@
     width: 100px;
     height: 100px;
 }
+
+
+.first-box{
+    height: 100vh;
+    border: 1px solid black;
+}
+
+
+.second-box{
+    height: 200vh;
+    border: 1px solid black;
+
+}
+
+.child-box1{
+    position: sticky;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

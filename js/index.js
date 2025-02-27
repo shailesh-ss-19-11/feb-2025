@@ -234,16 +234,39 @@ console.log("hellow world");
 // console.log("🚀 ~ fruits:", fruits)
 
 // console.log(Array.isArray(fruits))
-const fruits = ["grapes", "apple", "banana", "mango", "orange"];
+// const fruits = ["grapes", "apple", "banana", "mango", "orange"];
 // console.log(typeof fruits);
 
-const clonnedArr1 = fruits.slice(0);
-console.log("🚀 ~ clonnedArr1:", clonnedArr1)
-
+// const clonnedArr1 = fruits.slice(0).concat(["item1","item2"]);
+// console.log("🚀 ~ clonnedArr1:", clonnedArr1)
 
 // const clonnedArr2 = [].concat(fruits,"item5","item6")
 // console.log("🚀 ~ clonnedArr2:", clonnedArr2)
 
-const arr1 = ["item6","item7"]
-const clonnedArr3 = [...fruits,"item5","item6",...arr1]; //es6 spread operator
-console.log("🚀 ~ clonnedArr3:", clonnedArr3)
+// const arr1 = ["item6","item7"]
+// const clonnedArr3 = [...fruits,"item5","item6",...arr1]; //es6 spread operator
+// console.log("🚀 ~ clonnedArr3:", clonnedArr3)
+
+// iterate array
+const fruits = ["grapes", "apple", "banana", "mango", "orange"];
+
+// for (let i = 0; i < fruits.length; i++) {
+//     if(fruits[i]==="mango"){
+//         console.log(fruits[i])
+//     }
+// }
+
+// for of loop
+// for (let item of fruits) {
+//   if (item === "mango") {
+//     console.log("mango found in array ");
+//   }
+// }
+
+// for in loop // index
+// for (let index in fruits) {
+//   if (fruits[index] === "mango") {
+//     console.log("mango found");
+//   }
+// }
+
