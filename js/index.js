@@ -1,4 +1,4 @@
-console.log("hellow world");
+// console.log("hellow world");
 // ES6 echma script
 // es 2024
 
@@ -16,11 +16,13 @@ console.log("hellow world");
 
 // var name = "shailesh";
 // var age = "25";
+// age = Number(age);
 // age = +age;
 // console.log(typeof age);
 
-// const name="shailes";
-// name="vinay ";
+// const name="shailesh";
+// name="vinay";
+// console.log("🚀 ~ name:", name)
 
 // let name = "shailesh";
 // {
@@ -52,6 +54,8 @@ console.log("hellow world");
 // let num1="10";
 // let num2=20;
 
+// console.log(20 === 20 || true === true);
+
 // console.log(num1<num2);
 // console.log(num1>num2);
 // console.log(num1>=num2);
@@ -67,24 +71,34 @@ console.log("hellow world");
 
 // string /////////////////////////////////////////
 
-// let name = "Shailesh";
+// let age = "25";
+// let num = 25;
+// console.log(age === num);
+// let name = "Shailesh ";
+// let name2 = "Shailesh";
+// console.log(name.trim()==name2)
 // 0,1,2,3,4
-// console.log(name.length)
+// const newName = name.trim();
+// console.log(newName.length);
+// console.log(name[name.length - 2]);
 // console.log(name.length-1)
 // console.log(name[name.length-1])
 // console.log(name.slice(1,6))
 // console.log(name.slice(0))
 // console.log(name.toUpperCase())
-// console.log(name.toLowerCase())
+// console.log(name.toLowerCase());
 // console.log(name.trim());
 
-// let name = "Shailesh";
+// let name = "this is no one we want in the world";
+// console.log(name.includes("is"));
+
+// let total = 0;
 // for (let char = 0; char < name.length; char++) {
-//   console.log(name[char]);
-//   if(name[char]==='i'){
-//     console.log(`this is ${name[char]}`)
+//   if (name[char] === "w") {
+//     total = total + 1;
 //   }
 // }
+// console.log("🚀 ~ total:", total);
 
 // falsy values
 // false
@@ -92,6 +106,34 @@ console.log("hellow world");
 // ""
 // undefined
 // null
+
+// const value = !false
+// console.log("🚀 ~ value:", value)
+// if(!false){
+//     console.log("inside if")
+// }
+
+// let customer = {
+//   pan: "LIHPS7275M",
+//   email: "as@asd.asd",
+//   gender: "MALE",
+//   pincode: 400001,
+//   fullName: "SHEELA SHARMA",
+//   birthDate: "1991-01-02T00:00:00.000+05:30",
+//   employmentType: "SELF_EMPLOYED",
+//   isMarried: true,
+// //   salaryAmount: 0,
+// };
+
+// console.log("🚀 ~ customer.salaryAmount:", customer.salaryAmount)
+// if (customer.salaryAmount) {
+//   console.log(customer.fullName);
+// }
+
+// let num1=20
+// let num2=20
+// console.log(num1===num2)
+
 // let name;
 // name="";
 // name=false;
@@ -132,6 +174,22 @@ console.log("hellow world");
 //     }
 // }
 
+// switch case
+// const month = "feb";
+// switch (month) {
+//   case "jan":
+//     console.log("january");
+//     break;
+//   case "feb":
+//     console.log("february");
+//     break;
+//   case "mar":
+//     console.log("march");
+//     break;
+//   default:
+//     console.error("no month left");
+// }
+
 // switch
 // let day = 3;
 // switch (day) {
@@ -162,6 +220,11 @@ console.log("hellow world");
 
 // console.log("xyz");
 // while loop
+// let i=0;
+// while(i<10){
+//     console.log(i)
+//     i++;
+// }
 
 // let i = 1; //1
 // // 1+2+3+4+5..10
@@ -216,57 +279,4 @@ console.log("hellow world");
 //   console.log(i);
 //   i++;
 // } while (i < 10);
-
-// array //////////////////////////////////////////////
-// group of different data type
-// const fruits = ["grapes", "apple", "banana", "mango", "orange"];
-// const newElements = fruits;
-// console.log(newElements===fruits)
-// newElements.push('mmm');
-// console.log("🚀 ~ fruits:", fruits)
-// console.log("🚀 ~ newElements:", newElements)
-
-// fruits.push('pineapple');
-// const poppedElement = fruits.pop()
-// console.log("🚀 ~ fruits:", poppedElement)
-// fruits.shift();
-// fruits.unshift("coconut");
-// console.log("🚀 ~ fruits:", fruits)
-
-// console.log(Array.isArray(fruits))
-// const fruits = ["grapes", "apple", "banana", "mango", "orange"];
-// console.log(typeof fruits);
-
-// const clonnedArr1 = fruits.slice(0).concat(["item1","item2"]);
-// console.log("🚀 ~ clonnedArr1:", clonnedArr1)
-
-// const clonnedArr2 = [].concat(fruits,"item5","item6")
-// console.log("🚀 ~ clonnedArr2:", clonnedArr2)
-
-// const arr1 = ["item6","item7"]
-// const clonnedArr3 = [...fruits,"item5","item6",...arr1]; //es6 spread operator
-// console.log("🚀 ~ clonnedArr3:", clonnedArr3)
-
-// iterate array
-const fruits = ["grapes", "apple", "banana", "mango", "orange"];
-
-// for (let i = 0; i < fruits.length; i++) {
-//     if(fruits[i]==="mango"){
-//         console.log(fruits[i])
-//     }
-// }
-
-// for of loop
-// for (let item of fruits) {
-//   if (item === "mango") {
-//     console.log("mango found in array ");
-//   }
-// }
-
-// for in loop // index
-// for (let index in fruits) {
-//   if (fruits[index] === "mango") {
-//     console.log("mango found");
-//   }
-// }
 

@@ -182,24 +182,45 @@
 
 // callback
 
-function myfunction2() {
-  console.log("this is my function 2");
-}
+// function myfunction2() {
+//   console.log("this is my function 2");
+// }
 
-function myfunction1(callback) {
-  callback();
-  //   console.log(a);
-}
-myfunction1(myfunction2); //argument
+// function myfunction1(callback) {
+//   callback();
+//   //   console.log(a);
+// }
+// myfunction1(myfunction2); //argument
 
 // parameter destructuring
+// const obj1 = {
+//   name: "shailesh",
+//   age: 45,
+//   address: "aksjdhjasd",
+//   mobile: 987987987,
+// };
 
-const obj = {
-  name: "shailesh",
-  age: 45,
-};
-function myfunction({ name, age }) {
-  console.log("🚀 ~ myfunction ~ name,age:", name, age);
-}
+// function destruct({ name, age, ...rest }) {
+//   console.log(name, age, rest);
+// }
 
-myfunction(obj);
+// destruct(obj1);
+
+// function callmeAgain(){
+//     console.log("this is callme again function ")
+// }
+// // what is function  small peace of code for perform pertucular task
+// function callme(callback){
+//     console.log("hhhh")
+//     callback()
+// }
+
+// callme(callmeAgain);
+
+// const callme = function(){
+
+// }
+
+// const callme=()=>{
+
+// }
